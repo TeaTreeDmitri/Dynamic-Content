@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    background-color: #fff300;
+    font-family: apparat,sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+}
+
+h2 {
+    color: black;
+    background-color: #fff300;
+    font-family: apparat,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+h3 {
+    color: #fff300;
+    background-color: black;
+    font-family: apparat,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+span {
+    color: white;
+    font-family: apparat,sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+a {
+    color: white;
+    background-color: black;
+    font-family: apparat,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: none;
+}
+
+p {
+    font-family: apparat,sans-serif;
+    font-weight: 600;
+}
+
+li {
+    font-family: apparat,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    background-color: #F2F2F2;
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+}
+
+.mainNav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff300;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    height: 7%;
+}
+
+.breadCrumbs {
+    /* display: inline-block; */
+}
+
+.productCard {
+    height: 50%;
+}
+
+.productImage {
+    max-height: 60%;
+}
