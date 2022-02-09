@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product List</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/vrr1ool.css" />
   </head>
   <body class="productList">
@@ -20,24 +19,28 @@
     </header>
     <main class="mainProductList">
       <h2>Nike</h2>
-      <article class="smallProduct normRetail">
+      <template id="smallProductTemplate">
+      <article class="smallProduct ">
         <img
           src="/Assets/Images/pexels-konstantin-mishchenko-1926769.jpeg"
           alt="..."
+          class="productImage"
         />
-        <h3>Sahara Team India Fan Shirt</h3>
-        <p>Tshirts | Nike</p>
-        <p class="price">99<span> dkk</span></p>
+        <h3 class="longTitle">Sahara Team India Fan Shirt</h3>
+        <p class="brandAndType"Tshirts | Nike</p>
+          <p class="price">99<span> dkk</span></p>
         <p class="discount">Reduced! Now only <span>88</span> dkk</p>
-        <a href="product.html">Read More</a>
+        <a href="product.html?id=1531">Read More</a>
       </article>
-      <article class="smallProduct discounted">
+    </template>
+      <!-- <article class="smallProduct discounted">
         <img
           src="/Assets/Images/pexels-konstantin-mishchenko-1926769.jpeg"
           alt="..."
+          class="productImage"
         />
-        <h3>Sahara Team India Fan Shirt</h3>
-        <p>Tshirts | Nike</p>
+        <h3 class="longTitle">Sahara Team India Fan Shirt</h3>
+        <p class="brandAndType"Tshirts | Nike</p>
         <p class="price">99<span> dkk</span></p>
         <p class="discount">Reduced! Now only <span>88</span> dkk</p>
 
@@ -47,9 +50,10 @@
         <img
           src="/Assets/Images/pexels-konstantin-mishchenko-1926769.jpeg"
           alt="..."
+          class="productImage"
         />
-        <h3>Sahara Team India Fan Shirt</h3>
-        <p>Tshirts | Nike</p>
+        <h3 class="longTitle">Sahara Team India Fan Shirt</h3>
+        <p class="brandAndType"Tshirts | Nike</p>
         <p class="price">99<span> dkk</span></p>
         <p class="discount">Reduced! Now only <span>88</span> dkk</p>
         <a href="product.html">Read More</a>
@@ -58,9 +62,10 @@
         <img
           src="/Assets/Images/pexels-konstantin-mishchenko-1926769.jpeg"
           alt="..."
+          class="productImage"
         />
-        <h3>Sahara Team India Fan Shirt</h3>
-        <p>Tshirts | Nike</p>
+        <h3 class="longTitle">Sahara Team India Fan Shirt</h3>
+        <p class="brandAndType"Tshirts | Nike</p>
         <p class="price">99<span> dkk</span></p>
         <p class="discount">Reduced! Now only <span>88</span> dkk</p>
         <a href="product.html">Read More</a>
@@ -69,17 +74,18 @@
         <img
           src="/Assets/Images/pexels-konstantin-mishchenko-1926769.jpeg"
           alt="..."
+          class="productImage"
         />
-        <h3>Sahara Team India Fan Shirt</h3>
-        <p>Tshirts | Nike</p>
+        <h3 class="longTitle">Sahara Team India Fan Shirt</h3>
+        <p class="brandAndType"Tshirts | Nike</p>
         <p class="price">99<span> dkk</span></p>
         <p class="discount">Reduced! Now only <span>88</span> dkk</p>
         <a href="product.html">Read More</a>
-      </article>
+      </article> -->
     </main>
     <footer>
       <a href="#top">Back to Top</a>
     </footer>
-    <script></script>
+    <script src="productList.js"></script>
   </body>
 </html>

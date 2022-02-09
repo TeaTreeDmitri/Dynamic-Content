@@ -60,7 +60,7 @@ li {
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: #ece9e9;
     width: 100%;
 }
 
@@ -83,6 +83,10 @@ body {
     align-items: center;
     padding: 1%;
     height: 7%;
+}
+
+.longTitle {
+    max-width: 50%;
 }
 
 .breadcrumbs {
@@ -173,11 +177,6 @@ li {
 }
 
 .mainProductList article.discounted .price
- {
-    display: none;
-}
-
-.mainProductList article.normRetail .discount
  {
     display: none;
 }
