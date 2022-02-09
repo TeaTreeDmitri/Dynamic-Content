@@ -1,5 +1,9 @@
+const urlParams = new URLSearchParams(window.location.search);
+// const query = urlParams.get("q");
+const id = (urlParams.get('id'));
 
-const url = "https://kea-alt-del.dk/t7/api/products";
+
+const url = "https://kea-alt-del.dk/t7/api/products/";
 
 fetch(url)
     .then(function(res){
@@ -13,7 +17,6 @@ function handleProductList(data){
 
     data.forEach(showProduct);
 }
-
 //       <template id="smallProductTemplate">
 // <article class="smallProduct normRetail">
 // <img

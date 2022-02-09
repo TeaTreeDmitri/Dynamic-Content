@@ -136,6 +136,14 @@ li {
     height: auto;
 }
 
+dt {
+    font-weight: 800;
+}
+
+dd {
+    background-color: #fff300;
+}
+
 /* productList///////////////////////////////////////////////////////// */
 
 .mainProductList {
