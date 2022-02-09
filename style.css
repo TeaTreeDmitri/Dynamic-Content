@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: apparat, sans-serif;
 }
 
 h1 {
@@ -139,6 +140,8 @@ li {
     margin: auto;
     flex-wrap: wrap;
     gap: 5%;
+    row-gap: 50px;
+
 }
 
 .mainProductList > h2 {
@@ -155,3 +158,26 @@ li {
     max-height: 250px;
 }
 
+.mainProductList article.soldOut {
+    opacity: 0.4;
+}
+
+.mainProductList article.soldOut:before {
+    display: block;
+    content:"Sold Out";
+    position: absolute;
+    background-color: #fff300;
+    color: black;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+.mainProductList article.discounted .price
+ {
+    display: none;
+}
+
+.mainProductList article.normRetail .discount
+ {
+    display: none;
+}
